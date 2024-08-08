@@ -1,0 +1,22 @@
+{
+  "id":"casiclock",
+  "name":"Casi Clock",
+  "shortName": "Casi Clock",
+  "version": "0.01",
+  "description": "Un reloj que te da la hora mas o menos",
+  "readme": "README.md",
+  "icon":"casiclock.png",
+  "screenshots": [{"url":"casiclock-light.png"},{"url":"casiclock-dark.png"}],
+  "type": "clock",
+  "tags": "clock",
+  "supports": ["BANGLEJS", "BANGLEJS2"],
+  "allow_emulator": true,
+  "storage": [
+    {"name":"casiclock.app.js","url":"casiclock.app.js"},
+    {"name":"casiclock.settings.js","url":"casiclock.settings.js"},
+    {"name":"casiclock.img","url":"casiclock.icon.js","evaluate":true}
+  ],
+  "data": [
+    {"name":"casiclock.settings.json"}
+  ]
+}
