@@ -1,5 +1,5 @@
 (function(back) {
-  const SETTINGS_FILE = "fuzzyw.settings.json";
+  const SETTINGS_FILE = "casiclock.settings.json";
 
   // initialize with default settings...
   let s = {'showWidgets': false, 'animate': true};
@@ -19,7 +19,7 @@
   }
 
   E.showMenu({
-    '': { 'title': 'Fuzzy Word Clock' },
+    '': { 'title': 'Casi Clock' },
     '< Back': back,
     'Show Widgets': {
       value: s.showWidgets,

@@ -2,7 +2,7 @@
   "id":"casiclock",
   "name":"Casi Clock",
   "shortName": "Casi Clock",
-  "version": "0.01",
+  "version": "0.02",
   "description": "Un reloj que te da la hora mas o menos",
   "readme": "README.md",
   "icon":"casiclock.png",
