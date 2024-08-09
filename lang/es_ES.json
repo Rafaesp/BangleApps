@@ -207,7 +207,7 @@
         "twenty five past *$1": "las *$1 pa y media",
         "half past *$1": "las *$1 y media",
         "twenty five to *$2": "las *$1 y media pasadas",
-        "twenty to *$2": "para menos cuarto las *$2",
+        "twenty to *$2": "pa menos cuarto las *$2",
         "quarter to *$2": "las *$2 menos cuarto",
         "ten to *$2": "las *$2 menos cuarto pasadas",
         "five to *$2": "casi las *$2 en punto"
