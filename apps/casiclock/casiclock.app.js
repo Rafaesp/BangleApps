@@ -55,8 +55,11 @@
     }, millisecs - (Date.now() % millisecs));
   };
 
+  const roundToNearest5 = x => Math.round(x / 5) * 5
+
   let getTimeString = function(date) {
-    let segment = Math.round((date.getMinutes()*60 + date.getSeconds() + 1)/300);
+    let segment = roundToNearest5(date.getMinutes()) * 60 / 300;
+    // let segment = Math.round((date.getMinutes()*60 + date.getSeconds() + 1)/300);
     let hour = date.getHours() + Math.floor(segment/12);
     // add "" to load into RAM due to 2v21 firmware .replace on flashstring issue
     let f_string = ""+fuzzy_string.minutes[segment % 12]; 
