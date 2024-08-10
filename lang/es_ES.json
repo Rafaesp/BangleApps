@@ -200,16 +200,16 @@
     "casiclock": {
         "//": "App-specific overrides",
         "*$1 o'clock": "las *$1 en punto",
-        "five past *$1": "las *$1 pasadas",
+        "five past *$1": "las *$1 pasá",
         "ten past *$1": "las *$1 y pico",
         "quarter past *$1": "las *$1 y cuarto",
-        "twenty past *$1": "las *$1 y cuarto pasadas",
+        "twenty past *$1": "las *$1 y cuarto pasá",
         "twenty five past *$1": "las *$1 pa y media",
         "half past *$1": "las *$1 y media",
-        "twenty five to *$2": "las *$1 y media pasadas",
+        "twenty five to *$2": "las *$1 y media pasá",
         "twenty to *$2": "pa menos cuarto las *$2",
         "quarter to *$2": "las *$2 menos cuarto",
-        "ten to *$2": "las *$2 menos cuarto pasadas",
+        "ten to *$2": "las *$2 menos cuarto pasá",
         "five to *$2": "casi las *$2 en punto"
     }
 }
