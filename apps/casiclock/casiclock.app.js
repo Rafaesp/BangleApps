@@ -33,7 +33,7 @@
   ]
   };
 
-  let text_scale = 4;
+  let text_scale = 3;
   let timeout = 2.5*60;
   let drawTimeout;
   let animInterval;
